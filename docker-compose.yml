@@ -4,8 +4,6 @@ services:
   db:
     image: postgres
     restart: always
-    environment:
-      POSTGRES_PASSWORD: p@ssw0rd
     env_file: .env
     ports:
       - "5433:5432"

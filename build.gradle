@@ -22,6 +22,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.kafka:spring-kafka'
+    compile 'com.fasterxml.jackson.core:jackson-databind'
     compile 'org.flywaydb:flyway-core:5.2.4'
     compile "org.postgresql:postgresql:42.0.0"
     compileOnly 'org.projectlombok:lombok'
